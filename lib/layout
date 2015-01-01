@@ -5,6 +5,16 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@linuuxbierwand">
+<meta name="twitter:title" content="[% title %]">
+[% IF page == "index.html" %]
+<meta name="twitter:description" content="LBW is a week-long event which takes place in a different European country each summer, drawing together Open Source software enthusiasts from more than a dozen different countries, for a combination of talks, presentations, hands-on mini-projects, outdoor exercise, and good food and drink.">
+<meta name="twitter:image:src" content="background-3177.jpg">
+[% ELSE %]
+<meta name="twitter:image:src" content="hikingtux.png">
+[% END %]
+
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 
@@ -80,6 +90,7 @@ div.cover_bottom {
 </div>
 
 <div class="col-md-12">
+<img src="hikingtux.png" srcset="hikingtux-200.png hikingtux.png" width="200" height="239" style="float: right; margin-left: 20px; margin-bottom: 20px;" title="Hiking Tux" />
 [% content %]
 
 <hr />

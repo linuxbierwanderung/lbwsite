@@ -1,0 +1,15 @@
+# ignore these files
+ignore = \b(CVS|RCS)\b
+ignore = ^#
+ignore = ~$
+
+# copy these files
+copy   = \.(gif|png|jpg|pdf|JPG|eot|svg|ttf|woff)$
+
+# recurse into directories
+recurse
+
+# provide info about what's going on
+verbose
+
+lib = lib/

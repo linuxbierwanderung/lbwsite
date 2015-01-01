@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="[% lang %]">
+<head>
+<title>[% title %]</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+<style type="text/css">
+body { font-family: "sans-serif"; font-size: 13pt; font-weight: normal; }
+h1 { font-family: "serif"; font-weight: bold; }
+h2 { font-family: "serif"; font-weight: bold; }
+h3 { font-family: "serif"; font-weight: bold; }
+p { text-align: justify; }
+
+[% IF cover %]
+
+body {
+    background-color: #888888;
+    background: url(background-1024.jpg);
+    background-image: -webkit-image-set( "background-1024.jpg" 1x, "background-1920.jpg" 2x, "background-3177.jpg" 3x );
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+div.cover_bottom {
+    color: #ffffff;
+    text-shadow: 1px 1px #000000;
+}
+
+@media all and (min-width: 992px) {
+    div.cover_bottom {
+        position: absolute;
+        bottom: 60px;
+    }
+}
+
+[% END %]
+</style>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="container">
+
+[% IF cover %]
+[% content %]
+[% ELSE %]
+[%
+    pages = [
+        [ "Home", "index.html" ],
+        [ "About", "about.html" ],
+        [ "Information for new attendees", "new.html" ]
+        [ "Next event", "http://lbw2015.yoink.eu/" ],
+        [ "Past events", "past.html" ],
+        [ "Organiser's wiki", "http://lbwwiki.norgie.net/wiki/index.php/Main_Page" ],
+        [ "Get in touch", "contact.html" ],
+    ]
+%]
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+<ul class="nav navbar-nav">
+[% FOREACH p IN pages %]
+<li[% IF this == p.1 %] class="active"[% END %]><a href="[% p.1 %]">[% p.0 %]</a></li>
+[% END %]
+</ul>
+</div>
+<div class="page-header">
+<h1>[% title %]</h1>
+</div>
+
+<div class="col-md-12">
+[% content %]
+
+<hr />
+<p lang="en">
+Patches to this site, styling or content, are also welcome, whether via github or via
+<code>git-format-patch</code>.  The source may be found at
+<a href="/lbwsite.git">http://linuxbierwanderung.com/lbwsite.git</a>.</small>
+
+</div>
+[% END %]
+</div>
+
+<script src="jquery-1.11.1.min.js" type="application/javascript"></script>
+<script src="bootstrap/js/bootstrap.min.js" type="application/javascript"></script>
+
+</body>
+
+</html>
+

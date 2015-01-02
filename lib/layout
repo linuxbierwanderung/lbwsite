@@ -126,8 +126,8 @@ div.cover_bottom {
 
 <hr />
 <p lang="en">
-Patches to this site, styling or content, are also welcome, whether via github or via
-<code>git-format-patch</code>.  The source may be found at
+<small>Patches to this site, styling or content, are welcome.
+The source may be found at
 <a href="/lbwsite.git">http://linuxbierwanderung.com/lbwsite.git</a>.</small>
 
 </div>

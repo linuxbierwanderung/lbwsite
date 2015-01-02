@@ -36,6 +36,37 @@ body {
     background-attachment: fixed;
 }
 
+@media all and (max-width: 720px) {
+    body {
+        background: url(background-1024.jpg);
+        background-image: -webkit-image-set( "background-1024.jpg" 1x, "background-1920.jpg" 2x, "background-3177.jpg" 3x );
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+}
+
+@media all and (min-width: 721px) {
+    body {
+        background: url(background-1920.jpg);
+        background-image: -webkit-image-set( "background-1024.jpg" 1x, "background-1920.jpg" 2x, "background-3177.jpg" 3x );
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+}
+
+@media all and (min-width: 1921px) {
+    body {
+        background: url(background-3177.jpg);
+        background-image: -webkit-image-set( "background-1024.jpg" 1x, "background-1920.jpg" 2x, "background-3177.jpg" 3x );
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+   }
+}
+
+
 div.cover_bottom {
     color: #ffffff;
     text-shadow: 1px 1px #000000;

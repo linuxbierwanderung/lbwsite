@@ -8,7 +8,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@linuxbierwand">
 <meta name="twitter:title" content="[% title %]">
-[% IF page == "index.html" %]
+[% IF this == "index.html" %]
 <meta name="twitter:description" content="LBW is a week-long event which takes place in a different European country each summer, drawing together Open Source software enthusiasts from more than a dozen different countries, for a combination of talks, presentations, hands-on mini-projects, outdoor exercise, and good food and drink.">
 <meta name="twitter:image:src" content="background-3177.jpg">
 [% ELSE %]

@@ -13,6 +13,7 @@
 <meta name="twitter:image:src" content="background-3177.jpg">
 [% ELSE %]
 <meta name="twitter:image:src" content="hikingtux.png">
+<!-- Add description -->
 [% END %]
 
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />

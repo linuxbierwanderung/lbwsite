@@ -8,7 +8,7 @@ mkdir out/lbwsite.git
 cd out/lbwsite.git
 git init --bare
 cd -
-git push out/lbwsite.git master
+git push --mirror out/lbwsite.git master
 cd out/lbwsite.git
 git update-server-info
 cd -

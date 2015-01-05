@@ -10,9 +10,9 @@
 <meta name="twitter:title" content="[% title %]">
 [% IF this == "index.html" %]
 <meta name="twitter:description" content="LBW is a week-long event which takes place in a different European country each summer, drawing together Open Source software enthusiasts from more than a dozen different countries, for a combination of talks, presentations, hands-on mini-projects, outdoor exercise, and good food and drink.">
-<meta name="twitter:image:src" content="http://linuxbierwanderung.com/background-3177.jpg">
+<meta name="twitter:image:src" content="https://linuxbierwanderung.com/background-3177.jpg">
 [% ELSE %]
-<meta name="twitter:image:src" content="http://linuxbierwanderung.com/hikingtux.png">
+<meta name="twitter:image:src" content="https://linuxbierwanderung.com/hikingtux.png">
 <!-- Add description -->
 [% END %]
 
@@ -129,7 +129,7 @@ div.cover_bottom {
 <p lang="en">
 <small>Patches to this site, styling or content, are welcome.
 The source may be found at
-<a href="/lbwsite.git">http://linuxbierwanderung.com/lbwsite.git</a>.</small>
+<a href="/lbwsite.git">https://linuxbierwanderung.com/lbwsite.git</a>.</small>
 
 </div>
 [% END %]

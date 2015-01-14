@@ -104,7 +104,7 @@ div.cover_bottom {
         [ "Home", "index.html" ],
         [ "About", "about.html" ],
         [ "Information for new attendees", "new.html" ]
-        [ "Next event", "http://lbw2015.yoink.eu/" ],
+        [ "Next event", "next.html" ],
         [ "Past events", "past.html" ],
         [ "Organiser's wiki", "http://lbwwiki.norgie.net/wiki/index.php/Main_Page" ],
         [ "Get in touch", "contact.html" ],

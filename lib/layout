@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@linuxbierwand">
+<meta name="twitter:site" content="@linuxbierwander">
 <meta name="twitter:title" content="[% title %]">
 [% IF this == "index.html" %]
 <meta name="twitter:description" content="LBW is a week-long event which takes place in a different European country each summer, drawing together Open Source software enthusiasts from more than a dozen different countries, for a combination of talks, presentations, hands-on mini-projects, outdoor exercise, and good food and drink.">

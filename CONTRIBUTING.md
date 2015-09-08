@@ -187,7 +187,7 @@ sending via email with:
 
 This will make a bundle with all changes/commits that separate your branch from
 the "master" branch. Send the `my-branch.bundle` file to the owner of the
-"origin" repository and (s)he'll hopyfully knwo what to do with it and merge
+"origin" repository and (s)he'll hopyfully know what to do with it and merge
 your changes. ;)
 
 *This section to be continued...*

@@ -106,7 +106,7 @@ div.cover_bottom {
         [ "Information for new attendees", "new.html" ]
         [ "Next event", "next.html" ],
         [ "Past events", "past.html" ],
-        [ "Organiser's wiki", "http://lbwwiki.norgie.net/wiki/index.php/Main_Page" ],
+        [ "Organiser's wiki", "http://wiki.linuxbierwanderung.com/" ],
         [ "Get in touch", "contact.html" ],
     ]
 %]
